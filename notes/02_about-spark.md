@@ -1,6 +1,6 @@
 ## About Spark
 
-![Key Ratios](img/key-ratios.png)
+![Key Ratios](../img/key-ratios.png)
 
 ### Small Data
 
@@ -14,7 +14,7 @@ Parallel processing required for larger datasets that greatly exceed a single ma
 
 The size of the dataset is not the only parameter for classifying it as "big data." If you're training a sophisticated neural network on 2GB of data, this could be considered a big data problem; whereas if you're running a simple SQL query on 10GB of data, this would likely not warrant a big data solution (parallel processing).
 
-![Distributed vs Parallel Computing](img/distributed-vs-parallel.png)
+![Distributed vs Parallel Computing](../img/distributed-vs-parallel.png)
 
 ### Hadoop Ecosystem
 
@@ -50,11 +50,11 @@ MapReduce is a programming technique for manipulating large data sets. "Hadoop M
 
 The technique works by first dividing up a large dataset and distributing the data across a cluster. In the map step, each data is analyzed and converted into a (key, value) pair. Then these key-value pairs are shuffled across the cluster so that all keys are on the same machine. In the reduce step, the values with the same keys are combined together.
 
-![MapReduce](img/mapreduce.png)
+![MapReduce](../img/mapreduce.png)
 
 While Spark doesn't implement MapReduce, you can write Spark programs that behave in a similar way to the map-reduce paradigm. In the next section, you will run through a code example.
 
-See [mapreduce notebook](code/mapreduce_practice.ipynb) for example.
+See [mapreduce notebook](../code/mapreduce_practice.ipynb) for example.
 
 ### Spark Modes
 
