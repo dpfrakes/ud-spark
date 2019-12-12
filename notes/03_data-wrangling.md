@@ -130,11 +130,11 @@ You might prefer SQL over data frames because the syntax is clearer especially f
 
 Spark data frames give you more control. You can break down your queries into smaller steps, which can make debugging easier. You can also [cache](https://unraveldata.com/to-cache-or-not-to-cache/) intermediate results or [repartition](https://hackernoon.com/managing-spark-partitions-with-coalesce-and-repartition-4050c57ad5c4) intermediate results.
 
-[Spark SQL exercises](../code/notebook/8_spark_sql_quiz.ipynb)
+[Spark SQL exercises](../code/8_spark_sql_quiz.ipynb)
 
-[Spark SQL personal solutions](../code/notebook/8_spark_sql_quiz_complete.ipynb)
+[Spark SQL personal solutions](../code/8_spark_sql_quiz_complete.ipynb)
 
-[Spark SQL Udacity solutions](../code/notebook/9_spark_sql_quiz_solution.ipynb)
+[Spark SQL Udacity solutions](../code/9_spark_sql_quiz_solution.ipynb)
 
 ### RDD API
 
